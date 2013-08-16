@@ -31,10 +31,14 @@ body {
 	padding-top: 350px;
 	overflow: hidden;
   width: 240px;
-	height: 400px;
+	/*height: 400px;*/
   background-image: url('../images/logo_slant.png');
   background-repeat:no-repeat;
   text-transform: lowercase;
+  position:relative;
+  min-height: 300px;
+  position:relative;
+
 }
 
 .nav {
@@ -175,5 +179,14 @@ article.blogItem {
 }
 
 #fblike{
-  padding-top:200px;
+  position:absolute; bottom:0;
+  padding-top:0px;
+  position:absolute;
+  bottom:0;
+  margin-bottom:-55px;
+
+}
+
+
+.left_col {
 }

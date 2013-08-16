@@ -5,16 +5,19 @@
 <div class="wrapper" id="contentHolder">
 	<div id="content" class="row clearfix">
 
+
+    {option:positionLeft}
     <div class="left_col">
 
-      {option:positionLeft}
-      <div class="nav" id="navhook">
 
+      <div class="nav" id="navhook">
         <a href="/"><h5>omfloerst</h5></a>
 
         {$var|getnavigation:'page':1:1:1}
 
-        <div id="fblike">
+      </div>
+
+      <div id="fblike">
         <iframe
            src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fomfloerst&amp;width=130&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;send=false"
            scrolling="no"
@@ -22,12 +25,12 @@
            style="border:none; overflow:hidden; width:230px; height:80px;"
            allowTransparency="true">
         </iframe>
-        </div>
-
       </div>
-      {/option:positionLeft}
+
 
 		</div>
+
+      {/option:positionLeft}
 
     <div class="mainwrapper">
       <div class="header">
