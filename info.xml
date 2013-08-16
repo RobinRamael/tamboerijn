@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<name>tamboerijn</name>
+	<version>1.0.0</version>
+	<requirements>
+		<minimum_version>3.0.0</minimum_version>
+	</requirements>
+	<thumbnail>thumbnail.png</thumbnail>
+	<description>
+		<![CDATA[
+Mijn ogen zijn omfloersde tamboerijnen
+al roert de hand daarbuiten luide de huid
+hun klank in zich gekeerd blijft dof
+
+Mijn ogen zijn omfloersde tamboerijnen
+maar heb daarmee geen medelijden
+		]]>
+	</description>
+	<authors>
+		<author>
+			<name>Robin Ramael</name>
+			<url>http://www.github.com/robinramael</url>
+		</author>
+	</authors>
+	<metanavigation supported="false" />
+	<templates>
+		<template label="Default" path="core/layout/templates/default.tpl">
+			<positions>
+				<position name="main" />
+				<position name="left" />
+				<position name="bottom" />
+			</positions>
+			<format>
+        [left, main, main, main],
+        [left, bottom, bottom, bottom]
+			</format>
+		</template>
+	</templates>
+</theme>
