@@ -156,11 +156,15 @@ h6, .h6 { font-size: 1.1em; } /* 11pt */
   color:black;
 }
 
-.blogItem .header {
-  padding-top:5px;
-  padding-bottom:15px;
+article header {
+  text-transform:lowercase;
+  padding-bottom:5px;
 }
 
+
+article.blogItem {
+  padding-bottom:100px;
+}
 
 .header a  {
   text-decoration:none;
@@ -169,7 +173,6 @@ h6, .h6 { font-size: 1.1em; } /* 11pt */
 .header a:visited {
   color:black;
 }
-
 
 #fblike{
   padding-top:200px;
