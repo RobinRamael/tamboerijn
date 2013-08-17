@@ -23,16 +23,22 @@ body {
 .clearer { clear:both; }
 
 
+#logo {
+  padding-top: 30px;
+  margin-right: 20px;
+  height: 150px;
+  width: 120px;
+}
+
 .left_col {
 	text-align: right;
 	float: left;
   color: black;
 	border: 0;
-	padding-top: 350px;
+	padding-top: 0px;
 	overflow: hidden;
   width: 240px;
 	/*height: 400px;*/
-  background-image: url('../images/logo_slant.png');
   background-repeat:no-repeat;
   text-transform: lowercase;
   position:relative;
@@ -42,8 +48,12 @@ body {
 }
 
 .nav {
-  margin-right: 70px;
   font-size:14px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  margin-right:20px;
+  height: 200px;
+
 }
 
 .nav li {
@@ -70,8 +80,9 @@ body {
 	color: black;
 	border: 0;
 	overflow: hidden;
-  height: 150px;
+  padding-bottom: 135px;
 }
+
 
 
 .main_col {
@@ -179,12 +190,8 @@ article.blogItem {
 }
 
 #fblike{
-  position:absolute; bottom:0;
-  padding-top:0px;
-  position:absolute;
-  bottom:0;
   margin-bottom:-55px;
-
+  padding-top: 200px;
 }
 
 

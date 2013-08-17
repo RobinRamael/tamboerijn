@@ -6,10 +6,14 @@
 	<div id="content" class="row clearfix">
 
 
-    {option:positionLeft}
+
     <div class="left_col">
 
+      <img id="logo"
+           src="/frontend/themes/tamboerijn/core/layout/images/logo_slant_klein.png"
+           alt="omfloerst" />
 
+      {option:positionLeft}
       <div class="nav" id="navhook">
         <a href="/"><h5>omfloerst</h5></a>
 
@@ -26,11 +30,11 @@
            allowTransparency="true">
         </iframe>
       </div>
-
+    {/option:positionLeft}
 
 		</div>
 
-      {/option:positionLeft}
+
 
     <div class="mainwrapper">
       <div class="header">
