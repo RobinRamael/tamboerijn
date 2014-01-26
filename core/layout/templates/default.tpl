@@ -19,9 +19,7 @@
 
         {$var|getnavigation:'page':1:1:1}
 
-      </div>
-
-      <div id="fblike">
+        <div id="fblike">
         <iframe
            src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fomfloerst&amp;width=130&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;send=false"
            scrolling="no"
@@ -30,6 +28,10 @@
            allowTransparency="true">
         </iframe>
       </div>
+
+      </div>
+
+
     {/option:positionLeft}
 
 		</div>
